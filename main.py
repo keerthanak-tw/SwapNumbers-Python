@@ -1,10 +1,3 @@
-# This is a sample Python script.
-
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
-from pip._vendor.distlib.compat import raw_input
-
-
 def swaps(inputArray):
     noOfSwaps = 0
     for i in range(len(inputArray)):
@@ -17,7 +10,7 @@ def swaps(inputArray):
 
 if __name__ == '__main__':
     noOfElements = input()
-    inputArray = raw_input()
+    inputArray = input()
     array = [int(x) for x in inputArray.split(",")]
     noOfSwaps = swaps(array)
     print(noOfSwaps)
